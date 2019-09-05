@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+}
+
+body{
+  font-family: 'roboto', sans-serif;
+}
+#title{
+  text-align: center;
+  background-color:	#BF2E33;
+  color: #F7E9C6;
+  padding: 1%;
+}
+
+#image-div{
+  display: flex;
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+}
+
+#caption{
+  display:flex;
+  background-color: #F7E9C6;
+  color: #BF2E33;
+  font-weight: 1000;
+  width: 100%;
+  justify-content: center;
+}
+
+#tribute-info{
+  display: flex;
+  width: 50%;
+  background-color: #F7E9C6;
+  color: #BF2E33;
+  font-size: 1.1vw;
+  font-weight: 500;
+  padding: 0 50px;
+}
+
+ul{
+  list-style: none;
+}
+
+li + li{
+  margin-top: 4%;
+}
+
+li:nth-child(odd){
+  text-align: left;
+}
+
+li:nth-child(even){
+  text-align: right;
+}
+
+#link{
+/*   background-color: #5BC0DE; */
+  background-color: #BF2E33;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  width: 35%;
+  margin: 30px auto;
+}
+
+#tribute-link{
+  color: white;
+}
